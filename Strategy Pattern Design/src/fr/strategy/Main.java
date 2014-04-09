@@ -2,9 +2,9 @@ package fr.strategy;
 
 import java.util.ArrayList;
 
-import fr.strategy.Archetypes.Civilian;
-import fr.strategy.Archetypes.Medic;
-import fr.strategy.Archetypes.Soldier;
+import fr.strategy.archetypes.Civilian;
+import fr.strategy.archetypes.Medic;
+import fr.strategy.archetypes.Soldier;
 import fr.strategy.behavior.fight.Gun;
 import fr.strategy.behavior.heal.HeavyHeal;
 import fr.strategy.behavior.move.Run;

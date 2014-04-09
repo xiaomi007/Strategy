@@ -1,4 +1,4 @@
-package fr.strategy.Archetypes;
+package fr.strategy.archetypes;
 
 import fr.strategy.behavior.Fight;
 import fr.strategy.behavior.Heal;
