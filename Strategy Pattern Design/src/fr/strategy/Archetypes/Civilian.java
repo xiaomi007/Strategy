@@ -7,10 +7,12 @@ import fr.strategy.caracters.Characters;
 
 public class Civilian extends Characters {
 
-	//Default constructor, the Civilian as the same properties than the caracters, Peace, Walk and NoHeal
-	public Civilian (){	}
+	//By polymorphism override the method from the superclass Characters
+	public Civilian (){
+		super();
+	}
 
-	//the constructor from the superclass Characters
+	
 	public Civilian(Fight fight, Move move, Heal heal) {
 	    super(fight, move, heal);
     }
